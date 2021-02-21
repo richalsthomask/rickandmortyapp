@@ -1,0 +1,42 @@
+#main{
+  text-align:center;
+  height:100vh;
+  width:100%;
+  background-color:rgb(240, 240, 240);
+  
+  
+}
+
+#search{
+  border:0px;
+  background-color:white;
+  height:6%;
+  width:30%;
+  
+}
+
+#search:focus{
+  
+  outline:none;
+}
+
+::placeholder{
+  font-weight:400;
+  color:rgba(0,0,0,.3)
+}
+
+#viewer{
+  width:30%;
+  height:40%;
+  background-color:rgb(240, 240, 240);
+  text-align: center;
+  margin:0 auto;
+  margin-top:1%;
+  overflow-y:auto;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#viewer::-webkit-scrollbar{
+    display: none;  /* Safari and Chrome */
+}
